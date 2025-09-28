@@ -33,11 +33,6 @@ Install the required packages using pip:
 pip install pandas numpy scikit-learn xgboost shap matplotlib joblib
 ```
 
-### Setup
-1. Clone or download the project repository
-2. Navigate to the project directory
-3. Ensure data files are placed in the `data/` directory as expected by the notebooks
-
 ## Usage
 
 The project is organized as a series of Jupyter notebooks. Run them in order:
@@ -116,4 +111,5 @@ Random Forest outperformed XGBoost across all metrics for both genders.
 - **Male Dataset**: Strong emphasis on physiological signals (GSR, EEG) and behavioral features (anger, eye widen)
 - **Female Dataset**: Highlighted micro-expressions (smirk, lip press) and EEG features
 - Gender-specific patterns suggest complementary cognitive and behavioral strategies
+
 
